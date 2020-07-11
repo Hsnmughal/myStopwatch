@@ -1,0 +1,48 @@
+body {
+    background-image: url(images/time-lapse-photo-of-stars-on-night-924824.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#body{
+    margin: 13em auto;
+    text-align: center;
+}
+#screen #min,#sec,#milisec{
+    display: inline-block;
+    background-color: rgba(51, 51, 51, 0.678);
+    width: 200px;
+    color: rgb(206, 206, 206);
+    border-radius: 10px;
+    box-shadow: 2px 4px 5px rgb(255, 213, 149);
+    justify-content: space-around;
+}
+#sec {
+    color: rgb(143, 143, 143);
+}
+#milisec {
+    color: rgb(253, 27, 27) !important;
+}
+#stop{
+    background-color: rgba(226, 11, 11, 0.705) !important;
+}
+#reset {
+    background-color: rgba(10, 67, 133, 0.699) !important;
+}
+.btn {
+    margin: 6px 1em;
+    width: 130px;
+    background-color: rgba(53, 53, 53, 0.87) !important;
+    border: none !important;
+}
+.btn:hover {
+    box-shadow: 5px 4px 5px rgb(0, 183, 255);
+}
+#heading {
+    margin: 0px 0px 1em 0px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    color: rgb(207, 207, 207);
+    text-shadow: 1.5px 2px 4px rgb(118, 172, 194);
+}
